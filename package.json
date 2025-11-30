@@ -1,16 +1,11 @@
 {
-  "name": "serverturbowarp",
+  "name": "game-server",
   "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "ws": "^8.18.3"
+    "ws": "^8.0.0",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "start": "node server.js" 
   }
 }
